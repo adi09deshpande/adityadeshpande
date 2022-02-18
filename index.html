@@ -16,103 +16,118 @@
             padding: 15px;
         }
 
-        body, html {
-    height: 100%;
-}
+        body,
+        html {
+            height: 100%;
+        }
 
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/h.jpg");
+        /* The hero image */
+        .hero-image {
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./h.jpg");
 
-  /* Set a specific height */
-  height: 80%;
+            /* Set a specific height */
+            height: 80%;
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+            /* Position and center the image to scale nicely on all screens */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
 
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
+        /* Place text in the middle of the image */
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
+        .sidenav {
+            height: 100%;
+            /* Full-height: remove this if you want "auto" height */
+            width: 160px;
+            /* Set the width of the sidebar */
+            position: fixed;
+            /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 1;
+            /* Stay on top */
+            top: 0;
+            /* Stay at the top */
+            left: 0;
+            background-color: #111;
+            /* Black */
+            overflow-x: hidden;
+            /* Disable horizontal scroll */
+            padding-top: 20px;
+        }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
+        /* The navigation menu links */
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
 
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+        /* Style page content */
+        .main {
+            margin-left: 160px;
+            /* Same as the width of the sidebar */
+            padding: 0px 10px;
+        }
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
     </style>
 
 
 </head>
 
 <body style="background-color: rgb(216, 170, 118);">
-<center>
-    <h1>BIRDS AND ANIMALS </h1>
-</center>
+    <center>
+        <h1>BIRDS AND ANIMALS </h1>
+    </center>
 
-<!-- Side navigation -->
-<div class="sidenav">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
-  
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
 
     <div class="hero-image">
         <div class="hero-text">
-          <h1>A bird does not sing because it has an answer, it sings because it has a song</h1>
-          <p>-Maya Angelou</p>
+            <h1>A bird does not sing because it has an answer, it sings because it has a song</h1>
+            <p>-Maya Angelou</p>
         </div>
-      </div>
-<br><br>
+    </div>
+    <br><br>
     <div class="container text-center">
         <div class="row">
             <div class="col-sm-3 well">
                 <div class="well">
                     <p><a href="https://en.wikipedia.org/wiki/Bird" target="_blank">Birds</a></p>
-                    <img src="./img/bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                    <img src="./bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
                 </div>
                 <div class="well">
                     <p><a href="https://www.thespruce.com/types-of-birds-385446" target="_blank">Popular Birds</a></p>
@@ -131,8 +146,9 @@
                     Cute birds and animals warning😂
                 </div>
                 <p><a href="https://a-z-animals.com/animals/birds/">About Birds</a></p>
-                <p><a href="https://www.thebetterindia.com/33444/bird-sanctuaries-in-india/">Best Places to see birds</a></p>
-                
+                <p><a href="https://www.thebetterindia.com/33444/bird-sanctuaries-in-india/">Best Places to see
+                        birds</a></p>
+
             </div>
             <div class="col-sm-7">
 
@@ -155,54 +171,66 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="well">
-                            
-                            <img src="./img/1.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+
+                            <img src="./1.jpg" class="img-circle" height="55" width="55" alt="Avatar">
                         </div>
                     </div>
                     <div class="col-sm-9">
                         <div class="well">
                             <p>Diurnal Birds of Prey (Accipitriformes)
-                                The first type of birds is from the order Accipitriformes. It contains the diurnal birds of prey (i.e., active in the day time), such as hawks, eagles and ospreys. All these large birds have a sharp, hooked beak with visible nostrils.</p>
+                                The first type of birds is from the order Accipitriformes. It contains the diurnal birds
+                                of prey (i.e., active in the day time), such as hawks, eagles and ospreys. All these
+                                large birds have a sharp, hooked beak with visible nostrils.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="well">
-                            <img src="./img/2.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+                            <img src="./2.jpg" class="img-circle" height="55" width="55" alt="Avatar">
                         </div>
                     </div>
                     <div class="col-sm-9">
                         <div class="well">
                             <p>Waterfowl Birds (Anseriformes)
-                                The next kind of birds is from the order Anseriformes. Most of the birds in this classification are known birds such as ducks, swans, and geese. Birds in this order are called Waterfowl birds as they live near water sources such as marine body or freshwater ponds..</p>
+                                The next kind of birds is from the order Anseriformes. Most of the birds in this
+                                classification are known birds such as ducks, swans, and geese. Birds in this order are
+                                called Waterfowl birds as they live near water sources such as marine body or freshwater
+                                ponds..</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="well">
-                            <img src="./img/3.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+                            <img src="./3.jpg" class="img-circle" height="55" width="55" alt="Avatar">
                         </div>
                     </div>
                     <div class="col-sm-9">
                         <div class="well">
                             <p>Hummingbirds & Swifts (Apodiformes)
-                                As per the latest taxonomic classification, both hummingbirds and swifts belong to the order Apodiformes. Most of the birds in this order are very tiny and have “underdeveloped” feet. About 10% of the bird species in this group are threatened or endangered.</p>
+                                As per the latest taxonomic classification, both hummingbirds and swifts belong to the
+                                order Apodiformes. Most of the birds in this order are very tiny and have
+                                “underdeveloped” feet. About 10% of the bird species in this group are threatened or
+                                endangered.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="well">
-                            
-                            <img src="./img/4.jpg" class="img-circle" height="55" width="55" alt="Avatar">
+
+                            <img src="./4.jpg" class="img-circle" height="55" width="55" alt="Avatar">
                         </div>
                     </div>
                     <div class="col-sm-9">
                         <div class="well">
                             <p>Kiwis & Extinct Birds (Apterygiformes)
-                                The next group of birds belongs to order Apterygiformes, which is composed of flightless birds that live on the ground, such as the famous Kiwi – the national bird of New Zealand. A unique feature of these monogamous kiwis is that they have a long, flexible beak with a downward curve on end. Most of the bird species in this order are extinct now.</p>
+                                The next group of birds belongs to order Apterygiformes, which is composed of flightless
+                                birds that live on the ground, such as the famous Kiwi – the national bird of New
+                                Zealand. A unique feature of these monogamous kiwis is that they have a long, flexible
+                                beak with a downward curve on end. Most of the bird species in this order are extinct
+                                now.</p>
                         </div>
                     </div>
                 </div>
@@ -225,7 +253,9 @@
         </div>
     </div>
     <br><br>
-    <iframe  src="https://www.youtube.com/embed/CTcoCHKnkT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width:100%; height:550px;"></iframe>
+    <iframe src="https://www.youtube.com/embed/CTcoCHKnkT8" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        style="width:100%; height:550px;"></iframe>
     <footer class="container-fluid text-center">
         <p>Created by-Aditya Deshpande</p>
     </footer>
